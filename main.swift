@@ -2,10 +2,11 @@
 //  main.swift
 //  lab9
 //
-//  Created by admin on 12/5/23.
+//  Created by Aleksandra Olejarz on 12/5/23.
 //
 
 import Foundation
+//9.1
 //print("Wprowadz czesc rzeczywista liczby zespolonej A:")
 //var wprczecRzeczywista = readLine()!
 //while(Int(wprczecRzeczywista)==nil)
@@ -72,6 +73,8 @@ import Foundation
 //default: print("Wybrano niepoprawna opcje, sprobuj ponownie")
 //}
 
+
+//9.2
 //var zawodnicy = Array(repeating: rzutOszczepem(id:"0",rzuty:(0.0,0.0,0.0)), count: 4)
 //for i in zawodnicy.indices
 //{
@@ -154,7 +157,9 @@ import Foundation
 //
 //
 //
-//
+
+
+//9.3
 //var samochody = Set<String>()
 //var samochod=""
 //for _ in stride(from: 1, to: 7, by: 1)
@@ -183,6 +188,10 @@ import Foundation
 //{
 //    print("Samochod: \(nazwa), ktory chcesz usunac nie znajduje sie w kolekcji/n")
 //}
+
+
+
+//9.4
 //var Dziennik: [String:Int] = [:]
 //var nazwisko = ""
 //var id = ""
@@ -253,6 +262,8 @@ import Foundation
 //
 //}
 //
+
+//9.5
 print("Wprowadz liczbe lotow: ")
 var wpis = readLine()!
 while(Int(wpis)==nil)
